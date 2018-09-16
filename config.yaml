@@ -1,0 +1,111 @@
+title: Kyra Enson | Business Services
+baseURL: 'https://kyraenson.services/'
+languageCode: en-gb
+theme: airspace-hugo
+menu:
+  header:
+    - weight: 4
+      name: Services
+      url: /services
+    - weight: 5
+      name: Contact
+      url: /contact
+  footer:
+    - weight: 2
+      name: Contact me
+      url: '/contact'
+
+params:
+  dateFormat: 6 January 2006
+  home: Home
+  slider:
+    enable: true
+    title: Small Business Services
+    subtitle: >-
+      Your go-to place to find help<br/> with your everyday business needs.
+  wrapper:
+    enable: true
+    title: About Me
+    italic: >-
+      Kyra Enson Business Services is your go-to place to find help for your
+      every day business needs. Whether it's document & template creating
+      or social media content management, I'm able to provide a cost effective service
+      without compromising quality.
+    paragraph: >-
+      I understand that running a small business can be long and tiresome, so
+      I'm here to help relieve the strain of tedious tasks you don't find the time to do.
+    paragraph2: >-
+      Of course, I'm not just here for small businesses, my services are available to larger companies too
+      who need short term or on going help with business needs.
+      
+  blog:
+    enable: false
+    title: Get The Latest On What We're doing
+    subtitle: 'Catch up with us, anytime and anywhere'
+  feature:
+    enable: true
+    title: Flexible working
+    content: >-
+      I believe that a flexible working approach is fundamental in being able to provide
+      quality services. All services I provide can be carried out in your office
+      or remotely from the comfort of my home office.
+    button:
+      caption: View Services
+      url: '/services'
+  call:
+    enable: true
+    title: Rates
+    paragraph: >-
+      As a small business owner, I know that upfront costs of starting a small business can feel
+      daunting and costly, and that's why I aim to keep your costs low by providing tailored pricing options.
+      We can agree on a fixed price or hourly rates depending on the service you require. Prices start from as little as £15.
+    paragraph2: >-
+      Discounts apply to regular work contracts and mean that you received a reduced rate for the guaranteed
+      work and availability each month.
+    paragraph3: >-
+      I will never take on more than I can handle and believe that honesty
+      and fairness is key to successful relationships.
+
+  service:
+    title: Services
+    subtitle: Don't see what you are looking for? Get in touch to see if your need is within my capabilities
+    content:
+      - name: Administration Support
+        text: Typing | Data Entry | Document Development | Policy Writing | CV Writing | PA duties
+        icon: ion-filing
+      - name: Creative Support
+        text: Business Card Design | Social Media Management | Leaflet & Flyer development
+        icon: ion-image
+      - name: IT Assistance
+        text: Basic training on software including Microsoft & Adobe
+        icon: ion-laptop
+      - name: Bid Proposals
+        text: Commercial fit-out & refurbishment Bid Proposals | PQQ Responses
+        icon: ion-folder
+  
+  contact:
+    enable: true
+    title: Drop us a note
+    subtitle: Don’t just take our word for it. Check out some of our latest work.
+    form:
+      name: Your name
+      email: Your email
+      subject: Your subject
+      message: Your message
+      button: Send message
+    box:
+      enabled: false
+      title: Get in touch!
+      address: 
+        enabled: false
+        location: 'North Main Street, Brooklyn Australia'
+      email: kyra.enson@gmail.com
+      phone: 'Phone: 0123 456 789 1'
+    blurb:
+      text: >-
+        If you are interested in finding out how I can help with your business,
+        please fill in the form above with brief details of the services you require,
+        and I will contact you via your preferred contact method within 24 hours.
+
+    #gmaps:
+    #  title: We Also Count in Google Maps
